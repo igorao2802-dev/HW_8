@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Использование веб-форм на сайте</title>
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+  <header>
+    <h1>Форма регистрации на сайте</h1>
+    <!--
+     <nav>
+       <a href="#" title="На главную">На главную</a>
+     </nav>
+    -->
+  </header>
+  <main>
+    <article class="c1">
+      <h2>Добро пожаловать на наш сайт!</h2>
+       <form action="/signup" method="POST">
+        <fieldset class="account-info">
+          <label>Имя</label>
+          <input type="text" name="first_name">
+          <label>Фамилия</label>
+          <input type="text" name="last_name">
+          <label>Email</label>
+          <input type="text" required="required" class="email notnull">
+          <label>Телефон</label>
+          <input type="text" name="phone" required="required" class="notnull"
+            placeholder="+375 (код оператора) 111-11-11">
+          <label>Страна</label>
+            <select name="country">
+              <option>Беларусь</option>
+              <option>Россия</option>
+              <option>Украина</option>
+              <option>Польша</option>
+              <option>Литва</option>
+              <option>Латвия</option>
+              <option>Эстония</option>
+              <option>США</option>
+            </select>
+          <label>Пароль</label>
+          <input type="password" name="password">
+          <label>Подтвердите пароль</label>
+          <input type="password" name="password_confirm">
+          
+        </fieldset>
+        <fieldset class="account-action">
+          <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
+              услуги</a></label>
+              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в
+                соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
+                  обработке персональных данных</a></label>
+          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+          </fieldset>
+      </form>
+    </article>
+    <!--<aside>
+      Тут могла быть ваша реклама
+    </aside>-->
+  </main>
+  <footer class="foot">
+  &#169; 2021, Официальный сайт Иванова Ивана Ивановича
+  </footer>
+</body>
+</html>
