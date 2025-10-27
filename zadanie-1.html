@@ -17,36 +17,44 @@
        <form action="/signup" method="POST">
         <fieldset class="account-info">
           <legend>Для регистрацции введите свои данные:</legend>
-          <label for="first_name">Имя</label>
+
+          <label for="first_name" id="first_name_label">Имя</label>
           <input type="text" name="first_name" id="first_name" placeholder="Игорь">
-          <label for="last_name">Фамилия</label>
+          
+          <label for="last_name" id="last_name_label">Фамилия</label>
           <input type="text" name="last_name" id="last_name" placeholder="Осадчий">
-          <label>Email</label>
+          
+          <label for="email" id="email_label">Email</label>
           <input type="text" required="required" id="email" class="email notnull" placeholder="igorao2802@gmail.com">
-          <label for="phone">Телефон</label>
+          
+          <label for="phone" id="phone_label">Телефон</label>
           <input type="text"  required="required" id="phone" class="notnull"
             placeholder="+375(29)260-01-05">
-          <label for="country">Страна</label>
+          
+            <label for="country" id="country_label">Страна</label>
             <select name="country" id="country">
-              <option>&nbsp;&nbsp;&nbsp;Беларусь</option>
-              <option>&nbsp;&nbsp;&nbsp;Россия</option>
-              <option>&nbsp;&nbsp;&nbsp;Украина</option>
-              <option>&nbsp;&nbsp;&nbsp;Польша</option>
-              <option>&nbsp;&nbsp;&nbsp;Литва</option>
-              <option>&nbsp;&nbsp;&nbsp;Латвия</option>
-              <option>&nbsp;&nbsp;&nbsp;Эстония</option>
-              <option>&nbsp;&nbsp;&nbsp;США</option>
+              <option>&nbsp;&nbsp;Беларусь</option>
+              <option>&nbsp;&nbsp;Россия</option>
+              <option>&nbsp;&nbsp;Украина</option>
+              <option>&nbsp;&nbsp;Польша</option>
+              <option>&nbsp;&nbsp;Литва</option>
+              <option>&nbsp;&nbsp;Латвия</option>
+              <option>&nbsp;&nbsp;Эстония</option>
+              <option>&nbsp;&nbsp;США</option>
             </select>
-          <label for="password">Пароль</label>
+          
+            <label for="password" id="password_label">Пароль</label>
           <input type="password" name="password" id="password">
-          <label for="password_repeat">Подтвердите пароль</label>
+          
+          <label for="password_repeat" id="password_repeat_label">Подтвердите пароль</label>
           <input type="password" name="password_confirm" id="password_repeat">          
         </fieldset>
         <fieldset class="account-action">
-          <label><input type="checkbox"  name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+          <label for="ww_submit_confirm"><input type="checkbox"  name="ww_submit_confirm" id="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
               href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
               услуги</a></label>
-              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об обработке персональных данных</a></label>
+              
+              <label for="ww_submit_confirm2"><input type="checkbox" name="ww_submit_confirm2" id="ww_submit_confirm2">&nbsp;Отметьте для согласия на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об обработке персональных данных</a></label>
           <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
         </fieldset>
       </form>

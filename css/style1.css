@@ -3,16 +3,17 @@
 *:after {
   box-sizing: border-box;
 }
-header {text-align: center;}
+header {text-align: center; margin-top: -5px;}
 h1 {
   font: 21px/2.15 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.0035em;
+  letter-spacing: 0.078em;
+  margin-left: 0px;
   }
 h2 {
   font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  margin-bottom: 19px;
+  margin-bottom: 17px;
   }  
 legend {
   font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +21,7 @@ legend {
   padding-top: 9px;
   padding-bottom: 10px;
   margin-left: -1px;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.016em;
 }
 p {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -29,11 +30,8 @@ p {
   text-align: center;
   margin: auto;
 }
-
-.foot {
-  
-  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+.foot {  
+  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;  
   }
 
 form {
@@ -77,13 +75,25 @@ legend {
   width: 100%;
   height: 28px;
   margin-top: 3px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   text-indent: 0px;
   font-size: 11px; 
 }
-.notnull {
-  font-size: 11px;
-}
+#last_name_label {letter-spacing: 0.01em;}
+#email_label {letter-spacing: 0.01em;}
+#phone_label {margin-top: 2px;letter-spacing: 0.01em;}
+#country_label {letter-spacing: 0.01em;}
+#password_label {margin-top: 4px;letter-spacing: 0.01em;}
+#password_repeat_label {letter-spacing: 0.007em;}
+.notnull {font-size: 11px;}
+
+#first_name {font-weight: 300;}
+#last_name {font-weight: 300;}
+#phone {margin-top: 2px;font-weight: 300;}
+#password {height: 33px; margin-top: 2px;font-weight: 300;}
+#password_repeat {height: 33px; margin-top: 4px;font-weight: 300;}
+
+
 .account-info select {
   background: #fff;
   border: 1px solid #c6c7cc;
@@ -93,41 +103,48 @@ legend {
   margin-top: 3px;
   margin-bottom: 7px;
   font-size: 11px;
-  width: 99%; 
-  appearance: none;            /* меняем стандартную птичку на картинку*/
+  width: 99.8%; /*
+  appearance: none;             меняем стандартную птичку на картинку 
   -webkit-appearance: none;    
   -moz-appearance: none;       
-  background-image: url('/images/bird_for_list.jpg'); /* новая птичка */
+  background-image: url('/images/bird_for_list.jpg'); /* новая птичка 
   background-repeat: no-repeat;
   background-position: right 0px center;
-  background-size: auto 100%; 
+  background-size: auto 100%; */
 }
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
-  padding: 31px 10px 30px 30px; 
+  padding: 21px 0px 30px 0px; 
 }
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
   border: 0;
   color: #fff;
   cursor: pointer;
-  margin-left: -22px;
+  margin-top: 8px;
   width: 175px;
   height: 35px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.001em;
+  font-weight: 600;
 }
 .account-action label {
   color: #7c7c80;
   font-size: 11px; 
+  font-weight: 300;
   display: block; 
-  margin-bottom: 9px;
+  margin-left: 19px;
+  margin-right: 26px;
 }
-input[type="text"], input[type="email"],  select, textarea {
-  width: 100%; 
-}
-footer {
+input[type="text"], input[type="email"],  select, textarea {width: 100%;}
+
+input[type="checkbox"] {accent-color: #0176FA;}
+
+.foot {
   text-align: center;
   color: #CECED3;
   margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }
