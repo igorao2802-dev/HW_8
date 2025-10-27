@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация — ВКонтакте.ру</title>
+  <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ВКонтакте.ру</h1>
+    <p class="intro">
+      Сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают,
+      а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться
+      информацией, ограничивая круг лиц, которым она будет доступна.
+    </p>
+
+    <form class="register-form">
+      <fieldset>
+        <legend>Имя</legend>
+
+        <div class="form-row">
+          <label for="firstname">Имя</label>
+          <input type="text" id="firstname" name="firstname" required>
+          <span class="note">Допускаются только настоящие имя и фамилия</span>
+        </div>
+
+        <div class="form-row">
+          <label for="lastname">Фамилия</label>
+          <input type="text" id="lastname" name="lastname" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        <p class="warn">Остальные регистрации будут удаляться</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Образование</legend>
+
+        <div class="form-row">
+          <label for="country">Страна</label>
+          <select id="country" name="country">
+            <option>Беларусь</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+            <option>Германия</option>
+            <option>Франция</option>
+            <option>Италия</option>
+            <option>Испания</option>
+            <option>Чехия</option>
+            <option>Словакия</option>
+            <option>Казахстан</option>
+            <option>Армения</option>
+            <option>Грузия</option>
+            <option>Молдова</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="city">Город</label>
+          <select id="city" name="city">
+            <option>Минск</option>
+            <option>Москва</option>
+            <option>Санкт-Петербург</option>
+            <option>Киев</option>
+            <option>Варшава</option>
+            <option>Вильнюс</option>
+            <option>Рига</option>
+            <option>Таллин</option>
+            <option>Нью-Йорк</option>
+            <option>Берлин</option>
+            <option>Париж</option>
+            <option>Мадрид</option>
+            <option>Прага</option>
+            <option>Алматы</option>
+            <option>Ереван</option>
+            <option>Тбилиси</option>
+            <option>Кишинёв</option>
+            <option>Гродно</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="school">Школа</label>
+          <select id="school" name="school">
+            <option>Школа №1</option>
+            <option>Школа №2</option>
+            <option>Школа №3</option>
+            <option>Школа №4</option>
+            <option>Школа №5</option>
+            <option>Школа №6</option>
+            <option>Школа №7</option>
+            <option>Школа №8</option>
+            <option>Школа №9</option>
+            <option>Школа №10</option>
+            <option>Школа №11</option>
+            <option>Школа №12</option>
+            <option>Школа №13</option>
+            <option>Школа №14</option>
+            <option>Школа №15</option>
+            <option>Школа №16</option>
+            <option>Школа №17</option>
+            <option>Школа №18</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="university">Университет</label>
+          <select id="university" name="university">
+            <option>БГУ</option>
+            <option>БНТУ</option>
+            <option>БГУИР</option>
+            <option>МГУ</option>
+            <option>СПбГУ</option>
+            <option>КНУ</option>
+            <option>Варшавский университет</option>
+            <option>Вильнюсский университет</option>
+            <option>Рижский университет</option>
+            <option>Тартуский университет</option>
+            <option>Гарвард</option>
+            <option>MIT</option>
+            <option>Берлинский университет</option>
+            <option>Сорбонна</option>
+            <option>Мадридский университет</option>
+            <option>Карлов университет</option>
+            <option>Алматинский университет</option>
+            <option>Ереванский университет</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+  </div>
+</body>
+</html>

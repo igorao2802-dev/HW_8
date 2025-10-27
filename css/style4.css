@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.register-form fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.register-form legend {
+  font-weight: bold;
+  color: #5274A2;
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  width: 120px;
+  font-size: 14px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.form-row .note {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.warn {
+  font-size: 12px;
+  color: red;
+  margin-left: 120px; /* выравнивание по полям */
+}
+
+.register-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: #4a76a8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background: #3b5f87;
+}
