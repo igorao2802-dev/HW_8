@@ -108,19 +108,32 @@ img {
   font-size: 14px;
   border: 1px solid #aaa;
   border-radius: 4px;  
-  height: 14px;
+ /* height: 14px;*/
 }
 #country, #city {
   max-width: 206px;
-  height: 25px;
+  /*height: 25px;*/
   margin-top: 2px;
 } 
-
 .form-row input {
   flex-grow: 1;
   max-width: 203px;
 }
 
+.form-row p {
+  flex-grow: 1;
+  margin-top: 40px;
+  margin-left: -200px;
+  max-width: 203px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#school, #university {
+  max-width: 206px;
+  /*height: 25px;*/
+  margin-top: 2px;
+}
 .form-row .note {
   margin-left: 8px;
   margin-top: 8px;
