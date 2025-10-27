@@ -6,24 +6,56 @@ body {
 }
 
 .container {
-  width: 600px;
-  margin: 40px auto;
-  background: #fff;
+  width: 892px;
+  margin: 0px auto;
+  /*background: #fff;*/
   padding: 20px 30px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  /*border: 1px solid #ccc;
+  border-radius: 6px;*/
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: -9px;
+  margin-left: -19px;
   font-size: 24px;
-  text-align: center;
+  font-weight: 300;
+  color: #0D4278;
+  text-align: left;
+  letter-spacing: 0.025em;
 }
 
-.intro {
-  font-size: 14px;
-  line-height: 1.6;
+hr {
+  height: 3px;
+  border: none;
+  background-color: #E7EBED;
+}
+
+.hr_regestration, .hr_name, .hr_education, .hr_school, .hr_university {width: 934px;}
+.hr_regestration {margin-left: -20px; margin-top: 20px;}
+.hr_name {margin-left: -35px; margin-top: 4px;}
+.hr_education {margin-left: -35px; margin-top: 60px;}
+.hr_school {margin-left: -35px; margin-top: 62px;}
+.hr_university {margin-left: -35px; margin-top: 20px;}
+
+.define {
+  margin-top: 0;
+  font-size: 18px;
   margin-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  letter-spacing: 0.015em;
+  line-height: 1.1em;
+}
+
+.define span {font-weight: 600;letter-spacing: 0.035em;}
+
+img {
+  float: left;
+  width: 35px;
+  height: 35px;
+  padding: 10px 15px 40px 10px;
+  margin-left: -19px;
+  margin-top: 10px;
 }
 
 .register-form fieldset {
@@ -33,41 +65,69 @@ h1 {
 
 .register-form legend {
   font-weight: bold;
+  font-size: 21px;
   color: #5274A2;
   margin-bottom: 10px;
+  margin-left: -33px;
+  letter-spacing: 0.1em;
+}
+
+.register-form .legend_education {
+  padding-top: 23px;
+  letter-spacing: 0.06em;
+  margin-bottom: -60px;
 }
 
 .form-row {
   display: flex;
-  align-items: center;
+  align-items: start;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .form-row label {
-  width: 120px;
-  font-size: 14px;
+  width: 83px;
+  margin-left: -36px;
+  padding-right: 5px;
+  text-align: right;  
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  margin-top: 4px;
 }
+
+.form-row label[for="lastname"] {margin-left: -34px;}
+
+.form-row label[for="country"] {margin-left: -26px;}
+
+.form-row label[for="city"] {margin-left: -26px; margin-top: 7px;}
 
 .form-row input,
 .form-row select {
   flex: 1;
-  padding: 6px 8px;
+  padding: 6px 8px 6px 0px;
   font-size: 14px;
   border: 1px solid #aaa;
-  border-radius: 4px;
+  border-radius: 4px;  
+  height: 14px;
+}
+#country, #city {
+  max-width: 206px;
+  height: 25px;
+  margin-top: 2px;
+} 
+
+.form-row input {
+  flex-grow: 1;
+  max-width: 203px;
 }
 
 .form-row .note {
-  margin-left: 10px;
+  margin-left: 8px;
+  margin-top: 8px;
+  letter-spacing: 0.085em;
   font-size: 12px;
   color: #555;
   white-space: nowrap;
-}
-
-.warn {
-  font-size: 12px;
-  color: red;
-  margin-left: 120px; /* выравнивание по полям */
 }
 
 .register-form button {
