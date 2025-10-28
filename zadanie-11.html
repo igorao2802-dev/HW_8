@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Использование веб-форм на сайте</title>
+  <link rel="stylesheet" href="css/style11.css">
+</head>
+<body>
+  <header>
+    <h1>Форма регистрации на сайте</h1>
+  </header>
+  <main>
+    <article class="c1">
+      <h2>Добро пожаловать на наш сайт!</h2>
+       <form action="/signup" method="POST">
+        <fieldset class="account-info">
+          <legend>Для регистрации введите свои данные:</legend>
+
+          <label for="first_name" id="first_name_label">Имя</label>
+          <input type="text" name="first_name" id="first_name" placeholder="Виталий">
+          
+          <label for="last_name" id="last_name_label">Фамилия</label>
+          <input type="text" name="last_name" id="last_name" placeholder="Валентинович">
+          
+          <label for="email" id="email_label">Email</label>
+          <input type="email" id="email" class="email notnull" placeholder="v.fufaev@niks.by" required>
+          
+          <label for="phone" id="phone_label">Телефон</label>
+          <input type="tel" id="phone" class="notnull" placeholder="+375448880888" pattern="^\+375(17|25|29|33|44)\d{7}$" required>
+          
+            <label for="country" id="country_label">Страна</label>
+            <select name="country" id="country">
+              <option>&nbsp;&nbsp;Беларусь</option>
+              <option>&nbsp;&nbsp;Россия</option>
+              <option>&nbsp;&nbsp;Украина</option>
+              <option>&nbsp;&nbsp;Польша</option>
+              <option>&nbsp;&nbsp;Литва</option>
+              <option>&nbsp;&nbsp;Латвия</option>
+              <option>&nbsp;&nbsp;Эстония</option>
+              <option>&nbsp;&nbsp;США</option>
+            </select>
+          
+            <label for="password" id="password_label">Пароль</label>
+          <input type="password" name="password" id="password">
+          
+          <label for="password_repeat" id="password_repeat_label">Подтвердите пароль</label>
+          <input type="password" name="password_confirm" id="password_repeat">          
+        </fieldset>
+        <fieldset class="account-action">
+          <label for="ww_submit_confirm"><input type="checkbox"  name="ww_submit_confirm" id="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
+              услуги</a></label>
+              
+              <label for="ww_submit_confirm2"><input type="checkbox" name="ww_submit_confirm2" id="ww_submit_confirm2">&nbsp;Отметьте для согласия на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об обработке персональных данных</a></label>
+          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+        </fieldset>
+      </form>
+    </article>
+  </main>
+  <footer class="foot">
+  &#169; 2025, Официальный сайт Осадчего Игоря Александровича
+  </footer>
+</body>
+</html>

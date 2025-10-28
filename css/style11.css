@@ -1,0 +1,143 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+header {text-align: center; margin-top: -5px;}
+h1 {
+  font: 21px/2.15 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.088em;
+  margin-left: 0px;
+  }
+h2 {
+  font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-bottom: 17px;
+  }  
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+p {
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.c1 {
+  text-align: center;
+  margin: auto;
+}
+.foot {  
+  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  }
+
+form {
+  border: 1px solid #c6c7cc;
+  width: 360px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+legend {
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  width: fit-content;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;  
+  width: 100%;
+  height: 28px;
+  margin-top: 3px;
+  margin-bottom: 14px;
+  text-indent: 0px;
+  font-size: 11px; 
+}
+#last_name_label {letter-spacing: 0.01em;}
+#email_label {letter-spacing: 0.01em;}
+#phone_label {margin-top: 2px;letter-spacing: 0.01em;}
+#country_label {letter-spacing: 0.01em;}
+#password_label {margin-top: 4px;letter-spacing: 0.01em;}
+#password_repeat_label {letter-spacing: 0.007em;}
+.notnull {font-size: 11px;}
+
+#first_name {font-weight: 300;  padding-left: 3px; letter-spacing: 0.03em;}
+#last_name {font-weight: 300; padding-left: 3px; padding-top: 2px; letter-spacing: 0.03em;}
+#email {padding-left: 3px; padding-top: 2px; letter-spacing: 0.025em;}
+#phone {margin-top: 2px;font-weight: 300; padding-left: 3px; letter-spacing: 0.01em;}
+#country {letter-spacing: 0.01em; padding-top: 2px; padding-block-end: 2px;}
+#password {height: 33px; margin-top: 2px;font-weight: 300; padding-left: 3px;}
+#password_repeat {height: 33px; margin-top: 4px;font-weight: 300; padding-left: 3px;}
+
+.account-info select {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  height: 28px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  font-size: 11px;
+  width: 99.2%; 
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 21px 0px 30px 0px; 
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 175px;
+  height: 35px;
+  letter-spacing: 0.001em;
+  font-weight: 600;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 11px; 
+  font-weight: 300;
+  display: block; 
+  margin-left: 19px;
+  margin-right: 26px;
+}
+input[type="text"], input[type="email"],  select, textarea {width: 100%;}
+
+input[type="checkbox"] {accent-color: #0176FA;}
+
+.foot {
+  text-align: center;
+  color: #CECED3;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
