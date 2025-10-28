@@ -90,9 +90,9 @@ legend {
 #first_name {font-weight: 300;}
 #last_name {font-weight: 300;}
 #phone {margin-top: 2px;font-weight: 300;}
-#password {height: 33px; margin-top: 2px;font-weight: 300;}
-#password_repeat {height: 33px; margin-top: 4px;font-weight: 300;}
-
+#email {text-indent: 2px;}
+#password {height: 33px; margin-top: 2px;font-weight: 300; text-indent: 2px;}
+#password_repeat {height: 33px; margin-top: 4px;font-weight: 300; text-indent: 2px;}
 
 .account-info select {
   background: #fff;

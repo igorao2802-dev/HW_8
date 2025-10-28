@@ -16,7 +16,7 @@
       <h2>Добро пожаловать на наш сайт!</h2>
        <form action="/signup" method="POST">
         <fieldset class="account-info">
-          <legend>Для регистрацции введите свои данные:</legend>
+          <legend>Для регистрации введите свои данные:</legend>
 
           <label for="first_name" id="first_name_label">Имя</label>
           <input type="text" name="first_name" id="first_name" placeholder="Игорь">
@@ -24,10 +24,10 @@
           <label for="last_name" id="last_name_label">Фамилия</label>
           <input type="text" name="last_name" id="last_name" placeholder="Осадчий">
           
-          <label for="email" id="email_label">Email</label>
+          <label for="email" id="email_label" required>Email</label>
           <input type="text" required="required" id="email" class="email notnull" placeholder="igorao2802@gmail.com">
           
-          <label for="phone" id="phone_label">Телефон</label>
+          <label for="phone" id="phone_label" required>Телефон</label>
           <input type="text"  required="required" id="phone" class="notnull"
             placeholder="+375(29)260-01-05">
           
