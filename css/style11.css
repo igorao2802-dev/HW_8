@@ -7,19 +7,22 @@ header {text-align: center; margin-top: -5px;}
 h1 {
   font: 21px/2.15 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.088em;
+  letter-spacing: 0.07em;
   margin-left: 0px;
+  font-weight: 600;
   }
 h2 {
   font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 17px;
+  letter-spacing: 0.015em;
   }  
 legend {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding-top: 9px;
   padding-bottom: 10px;
+  font-weight: 300;
 }
 
 p {
@@ -53,8 +56,10 @@ input {
   margin: 0;
 }
 legend {
-  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+  font: 17px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.017em;
+  margin-left: 0px;
 }
 .account-info {
   padding: 20px 20px 0 20px;
@@ -80,8 +85,8 @@ legend {
 }
 #last_name_label {letter-spacing: 0.01em;}
 #email_label {letter-spacing: 0.01em;}
-#phone_label {margin-top: 2px;letter-spacing: 0.01em;}
-#country_label {letter-spacing: 0.01em;}
+#phone_label {margin-top: 0px;letter-spacing: 0.01em;}
+#country_label {letter-spacing: 0.01em; margin-top: 2px;}
 #password_label {margin-top: 4px;letter-spacing: 0.01em;}
 #password_repeat_label {letter-spacing: 0.007em;}
 .notnull {font-size: 11px;}
@@ -91,8 +96,8 @@ legend {
 #email {padding-left: 3px; padding-top: 2px; letter-spacing: 0.025em;}
 #phone {margin-top: 2px;font-weight: 300; padding-left: 3px; letter-spacing: 0.01em;}
 #country {letter-spacing: 0.01em; padding-top: 2px; padding-block-end: 2px;}
-#password {height: 33px; margin-top: 2px;font-weight: 300; padding-left: 3px;}
-#password_repeat {height: 33px; margin-top: 4px;font-weight: 300; padding-left: 3px;}
+#password {height: 33px; margin-top: 2px;font-weight: 300; padding-left: 6px;font-size: 9px; letter-spacing: 0.08em;}
+#password_repeat {height: 33px; margin-top: 4px;font-weight: 300; padding-left: 6px;font-size: 9px; letter-spacing: 0.08em;}
 
 .account-info select {
   background: #fff;
